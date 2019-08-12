@@ -45,7 +45,7 @@ __*MAVEN_HOME变量：*__
 - 安装好后的界面
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20190809174034465.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3JlZHBhbmRhMjEz,size_10,color_FFFFFF,t_70)
 
-< center>[返回主页](README.md)< /center>
+<center>[返回主页](README.md)</center>
 
 
 
