@@ -5,4 +5,4 @@
 - [linux静态ip配置]
 - [linux安装jdk及环境配置]
 
-[返回主页](README.md)
+
