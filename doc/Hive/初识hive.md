@@ -1,29 +1,3 @@
-```java
-public class MyDemo{
-    public static void main(String[] args) throws Exception{
-		Map<String, Integer> words = new HashMap<String,Integer>();
-        BufferedReader br = new BufferedReader(new FileReader("d:/a.txt"));
-        String line = br.readline();
-        while(line!=null){
-            Stringp[] wds = line.split(" ");
-            for(String wds : wds){
-                if(words.containKey(wd)){
-                    words.put(wds,words.get(wd)+1);
-                }else{
-                    words.put(wds,1);
-                }
-            }
-            line=br.readline();
-        }
-        br.close();
-        words.forEach((k,v)->{
-            System.out.println(k+":"+v);
-        });
-    
-    } 
-}
-```
-
 # **hive**
 
 自身不存储数据，相当于一个空壳子
@@ -62,6 +36,7 @@ export HIVE_CONF_DIR=/opt/bigdata/hive110/conf
 ```
 
 2>>>>>>>>>>>>>>
+conf目录下新建一个xml文件
 
 ```
 vi hive-site.xml
@@ -151,17 +126,5 @@ hdfs dfs -text /user/hive/warehouse/mydemo.db/userinfos/000000_0
 ```
 
 
-
-
-
+如果报错信息中提及行或列的大小限制，则可初始化mysql来解决
 > schematool -initSchema -dbType mysql #初始化mysql
-
-
-
-在一张表中可能可以创建的列不是无限的，
-
-将一张表可以分裂成三张表，创建表则可以创建很多。
-
-用无数张表代替一张表，列簇
-
-按照需求寻找特定列簇，返回放在一个什么地方
