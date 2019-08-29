@@ -5,5 +5,7 @@
 ### 🎈[linux基本命令1](doc/LInuxcode/linuxthird.md)
 ### 🎈[linux基本命令2](doc/LInuxcode/linuxfourth.md)
 ### 🎈[linux安装jdk及环境配置]
+### 🎈[Hadoop的安装及配置](doc/Hadoop/初识hadoop.md)
+### 🎈[Hive的安装及配置](doc/Hive/初识hive.md)
 
 
